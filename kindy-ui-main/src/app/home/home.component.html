@@ -1,0 +1,53 @@
+<!--<h1>Hi {{currentUser.firstName}}!</h1>
+<p>You're logged in with Angular 6!!</p>
+<h3>All registered users:</h3>
+<ul>
+    <li *ngFor="let user of users">
+        {{user.username}} ({{user.firstName}} {{user.lastName}})
+        - <a (click)="deleteUser(user.id)" class="text-danger">Delete</a>
+    </li>
+</ul>
+<p><a [routerLink]="['/login']">Logout</a></p>-->
+
+<div class="home-page">
+
+  <div class="banner">
+    <div class="container">
+      <h1 class="logo-font">conduit</h1>
+      <p>Hi</p>
+    </div>
+  </div>
+
+  <div class="container page">
+    <div class="row">
+
+      <div class="col-md-9">
+        <div class="feed-toggle">
+          <ul class="nav nav-pills outline-active">
+            <li class="nav-item">
+              <a class="nav-link">
+                Your Feed
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">
+                Global Feed
+              </a>
+            </li>
+          </ul>
+        </div>
+
+
+      </div>
+
+      <div class="col-md-3">
+        <div class="sidebar">
+          <p>Popular Tags</p>
+
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
